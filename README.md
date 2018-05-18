@@ -1,9 +1,9 @@
-# plane_reservations
+# plane-reservations
 FLEXE coding challenge on Codilify: Plane Reservations
 
 **Version Friday, 2018 May 18, 09:30 PST**
 
-[HISTORY](../HISTORY.md)
+[HISTORY](./HISTORY.md)
 
 Jeff Tanner
 206 849 8808
