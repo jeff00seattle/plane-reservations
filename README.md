@@ -10,7 +10,7 @@ jeff00seattle@gmail.com
  * [Plane Reservation problem](#plane-reservation-problem)
     + [Plane seating layout](#plane-seating-layout)
     + [Plane Reservations](#plane-reservations)
-    + [Goal](#goal)
+    + [Problem Definition](#problem-definition)
   * [Example Solution](#example-solution)
       - [Usage](#usage)
       - [4 rows, No Reservations and Grouping of 3: 12 available](#4-rows--no-reservations-and-grouping-of-3--12-available)
@@ -51,7 +51,7 @@ Example:
 1F 2A 1G 2E 3D 3F
 ```
 
-### Goal
+### Problem Definition
 
 Provided a plane with **`N`** rows of 10 seats across and knowing which seats have been reserved provided by **`S`**,
 find the maximum number of contiguous seat groups of length **`k`**.
