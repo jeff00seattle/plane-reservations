@@ -1,10 +1,27 @@
 # plane_reservations
 FLEXE coding challenge on Codilify: Plane Reservations
 
+**Version Thursday, 2018 May 17, 19:30 PST**
+
 Jeff Tanner
+206 849 8808
+jeff00seattle@gmail.com
+
+ * [Plane Reservation problem](#plane-reservation-problem)
+    + [Plane seating layout](#plane-seating-layout)
+    + [Plane Reservations](#plane-reservations)
+    + [Goal](#goal)
+  * [Example Solution](#example-solution)
+      - [Usage](#usage)
+      - [4 rows, No Reservations and Grouping of 3: 12 available](#4-rows--no-reservations-and-grouping-of-3--12-available)
+      - [4 rows, Reservations "1A 3B 4J 4K 2A 2B" and Grouping of 3: 8 available](#4-rows--reservations--1a-3b-4j-4k-2a-2b--and-grouping-of-3--8-available)
+      - [2 rows, Reservations "1A 1B 1C 2H 2J 2K" and Grouping of 3: 4 available](#2-rows--reservations--1a-1b-1c-2h-2j-2k--and-grouping-of-3--4-available)
+      - [10 rows, Reservations "1A 1B 1C 2H 2J 2K 5C 7G 4F 9D 9E 9F 9G 10H 10K" and Grouping of 3: 24 available](#10-rows--reservations--1a-1b-1c-2h-2j-2k-5c-7g-4f-9d-9e-9f-9g-10h-10k--and-grouping-of-3--24-available)
+
 
 ## Plane Reservation problem
 
+Given a plane with reserved seats, find the maximum number of seat groupings so that family of 3 can sit together.
 
 ### Plane seating layout
 
