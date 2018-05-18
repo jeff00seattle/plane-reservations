@@ -1,7 +1,7 @@
 # plane_reservations
 FLEXE coding challenge on Codilify: Plane Reservations
 
-**Version Thursday, 2018 May 17, 19:30 PST**
+**Version Thursday, 2018 May 17, 20:00 PST**
 
 Jeff Tanner
 206 849 8808
