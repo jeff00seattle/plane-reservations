@@ -108,7 +108,7 @@ class PlaneReservationsA(object):
         """Find the max number of grouping of seats adjacent of length k
         amoung currently reserved seats.
         """
-        print(reserved_seats)
+        # print(reserved_seats)
         n = len(reserved_seats)
         count_groups = 0
         count_empty_contigous_seats = 0
