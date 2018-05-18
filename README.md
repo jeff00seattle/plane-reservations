@@ -13,13 +13,13 @@ jeff00seattle@gmail.com
   * [Plane seating layout](#plane-seating-layout)
   * [Plane Reservations](#plane-reservations)
   * [Problem Definition](#problem-definition)
-- [Example Solution -- Using brute force empty seats counting -- ```class PlaneReservationsA```](#example-solution----using-brute-force-empty-seats-counting-------class-planereservationsa---)
+- [Example Solution -- Using brute force empty seats counting](#example-solution----using-brute-force-empty-seats-counting)
     + [Usage](#usage)
     + [4 rows, No Reservations and Grouping of 3: 12 available](#4-rows--no-reservations-and-grouping-of-3--12-available)
     + [4 rows, Reservations "1A 3B 4J 4K 2A 2B" and Grouping of 3: 8 available](#4-rows--reservations--1a-3b-4j-4k-2a-2b--and-grouping-of-3--8-available)
     + [2 rows, Reservations "1A 1B 1C 2H 2J 2K" and Grouping of 3: 4 available](#2-rows--reservations--1a-1b-1c-2h-2j-2k--and-grouping-of-3--4-available)
     + [10 rows, Reservations "1A 1B 1C 2H 2J 2K 5C 7G 4F 9D 9E 9F 9G 10H 10K" and Grouping of 3: 24 available](#10-rows--reservations--1a-1b-1c-2h-2j-2k-5c-7g-4f-9d-9e-9f-9g-10h-10k--and-grouping-of-3--24-available)
-- [Example Solution -- Using brute force empty seats counting -- ```class PlaneReservationsB```](#example-solution----using-brute-force-empty-seats-counting-------class-planereservationsb---)
+- [Example Solution -- Using brute force empty seats counting](#example-solution----using-brute-force-empty-seats-counting-1)
 
 ## Plane Reservation problem
 
@@ -60,7 +60,9 @@ find the maximum number of contiguous seat groups of length **`k`**.
 
 For example, how many family of 3 can sit together after determining available seating that are not yet reserved.
 
-## Example Solution -- Using brute force empty seats counting -- ```class PlaneReservationsA```
+## Example Solution -- Using brute force empty seats counting
+
+This approach is defined within ```plane_reservations_A.py``` and calls ```class PlaneReservationsA```.
 
 #### Usage
 
@@ -140,8 +142,10 @@ python3 plane_reservations_A.py \
 2018-05-17 19:33:02,022 Plane Reservation INFO     Seat Grouping By 3: Max Number = 24
 ```
 
-## Example Solution -- Using brute force empty seats counting -- ```class PlaneReservationsB```
+## Example Solution -- Using brute force empty seats counting
 
-Same example usage as calling ```plane_reservations_A.py```, however, now calling ```plane_reservations_B.py```
+This approach is defined within ```plane_reservations_B.py``` and calls ```class PlaneReservationsB```.
+
+Same expected usage is the same as ```plane_reservations_A.py```.
 
 This solution is both space optimal in applying reservations and time optimal in finding groupings.
