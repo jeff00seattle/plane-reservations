@@ -43,7 +43,7 @@ For example, how many family of 3 can sit together after determining available s
 
 ## Example Solution
 
-### Usage
+#### Usage
 
 ```bash
 $ python3 plane_reservation.py --help
@@ -57,7 +57,7 @@ Usage: plane_reservation.py
     --reservations: Seat reservations, example '1F 2A 1G 2E 3D 3F', default ''.
 ```
 
-### 4 rows, No Reservations and Grouping of 3: 12 available
+#### 4 rows, No Reservations and Grouping of 3: 12 available
 ```bash
 $ python3 plane_reservation.py \
   --number-rows 4 \
@@ -71,7 +71,7 @@ $ python3 plane_reservation.py \
 2018-05-17 19:01:18,850 Plane Reservation INFO     Seat Grouping By 3: Max Number = 12
 ```
 
-### 4 rows, No Reservations "1A 3B 4J 4K 2A 2B" and Grouping of 3: 8 available
+#### 4 rows, No Reservations "1A 3B 4J 4K 2A 2B" and Grouping of 3: 8 available
 ```bash
 python3 plane_reservation.py \
   --number-rows 4 \
@@ -86,7 +86,7 @@ python3 plane_reservation.py \
 2018-05-17 19:02:46,187 Plane Reservation INFO     Seat Grouping By 3: Max Number = 8
 ```
 
-### 2 rows, No Reservations "1A 1B 1C 2H 2J 2K" and Grouping of 3: 4 available
+#### 2 rows, No Reservations "1A 1B 1C 2H 2J 2K" and Grouping of 3: 4 available
 ```bash
 python3 plane_reservation.py \
   --number-rows 2 \
@@ -99,7 +99,7 @@ python3 plane_reservation.py \
 2018-05-17 19:18:17,872 Plane Reservation INFO     Seat Grouping By 3: Max Number = 4
 ```
 
-### 10 rows, No Reservations "1A 1B 1C 2H 2J 2K 5C 7G 4F 9D 9E 9F 9G 10H 10K" and Grouping of 3: 24 available
+#### 10 rows, No Reservations "1A 1B 1C 2H 2J 2K 5C 7G 4F 9D 9E 9F 9G 10H 10K" and Grouping of 3: 24 available
 ```bash
 python3 plane_reservation.py \
   --number-rows 10 \
