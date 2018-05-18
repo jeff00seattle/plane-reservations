@@ -70,8 +70,10 @@ Usage: plane_reservation.py
         [-h | --help]
         --number-rows int
         --reservations string
+        --grouping number int
     --number-rows: Number of Rows [Required]
-    --reservations: Seat reservations, example '1F 2A 1G 2E 3D 3F', default ''.
+    --reservations: Seat reservations, example '1F 2A 1G 2E 3D 3F', default ''
+    --grouping: Seat grouping, default '1'
 ```
 
 #### 4 rows, No Reservations and Grouping of 3: 12 available
