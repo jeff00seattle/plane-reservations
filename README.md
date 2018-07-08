@@ -1,6 +1,4 @@
 # plane-reservations
-FLEXE coding challenge on Codilify: Plane Reservations
-
 **Version Friday, 2018 May 18, 10:00 PST**
 
 [HISTORY](./HISTORY.md)
