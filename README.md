@@ -1,6 +1,8 @@
 # plane-reservations
 **Version Sunday, 2018 July 8, 10:00 PST**
 
+Write a program to assign passengers seats in an airplane.
+
 [HISTORY](./HISTORY.md)
 
 Jeff Tanner
@@ -18,7 +20,7 @@ Jeff Tanner
 - [Example Solution -- Count by available seat sections](#example-solution----count-by-available-seat-sections)
 
 
-## Plane Reservation problem
+## Plane Seat Reservation
 
 Given a plane with reserved seats, find the maximum number of seat groupings so that family of 3 can sit together.
 
