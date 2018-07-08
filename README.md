@@ -22,7 +22,7 @@ Jeff Tanner
 
 ## Plane Seat Reservation
 
-Given a plane with reserved seats, find the maximum number of seat groupings so that family of 3 can sit together.
+Given a plane with reserved seats, find the maximum number of seat groupings so that a group of size **`k`** can sit together.
 
 ### Plane seating layout
 
@@ -33,9 +33,9 @@ Given a plane with reserved seats, find the maximum number of seat groupings so 
     A   B   C       D   E   F   G       H   J   K
 -------------------------------------------------
 1   0   0   0   -   0   0   0   0   -   0   0   0
-2   0   0   0   -   0   0   0	0   -   0   0   0
-3   0   0   0   -   0   0   0	0   -   0   0   0
-4   0   0   0   -   0   0   0	0   -   0   0   0
+2   0   0   0   -   0   0   0	  0   -   0   0   0
+3   0   0   0   -   0   0   0	  0   -   0   0   0
+4   0   0   0   -   0   0   0	  0   -   0   0   0
 
 ***
 
@@ -55,9 +55,9 @@ Example:
 ### Problem Definition
 
 Provided a plane with **`N`** rows of 10 seats across and knowing which seats have been reserved provided by **`S`**,
-find the maximum number of contiguous seat groups of length **`k`**.
+find the maximum number of contiguous seat groups of size **`k`**.
 
-For example, how many family of 3 can sit together after determining available seating that are not yet reserved.
+For example, how many groups of size **`k`** after determining available seating that are not yet reserved.
 
 ## Example Solution -- Using brute force empty seats counting
 
