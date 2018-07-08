@@ -1,11 +1,9 @@
 # plane-reservations
-**Version Friday, 2018 May 18, 10:00 PST**
+**Version Sunday, 2018 July 8, 10:00 PST**
 
 [HISTORY](./HISTORY.md)
 
 Jeff Tanner
-206 849 8808
-jeff00seattle@gmail.com
 
 - [Plane Reservation problem](#plane-reservation-problem)
   * [Plane seating layout](#plane-seating-layout)
