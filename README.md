@@ -30,16 +30,16 @@ Given a plane with reserved seats, find the maximum number of seat groupings so 
 + 10 seats per row are identified by A, B, C, D, E, F, G, H, J, K (no I)
 
 ```
-	A       B       C               D       E       F       G               H       J       K
-	-----------------------------------------------------------------------------------------
-1	0	0	0	-	0	0	0	0	-	0	0	0
-2	0	0	0	-	0	0	0	0	-	0	0	0
-3	0	0	0	-	0	0	0	0	-	0	0	0
-4	0	0	0	-	0	0	0	0	-	0	0	0
+    A   B   C       D   E   F   G       H   J   K
+-------------------------------------------------
+1   0   0   0   -   0   0   0   0   -   0   0   0
+2   0   0   0   -   0   0   0	0   -   0   0   0
+3   0   0   0   -   0   0   0	0   -   0   0   0
+4   0   0   0   -   0   0   0	0   -   0   0   0
 
 ***
 
-N	0	0	0	-	0	0	0	0	-	0	0	0
+N   0   0   0   -   0   0   0   0   -   0   0   0
 ```
 
 ### Plane Reservations
